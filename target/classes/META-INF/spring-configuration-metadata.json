@@ -1,0 +1,48 @@
+{
+  "groups": [
+    {
+      "name": "spring.jdbc",
+      "type": "com.atguigu.bean.JdbcProperties",
+      "sourceType": "com.atguigu.bean.JdbcProperties"
+    },
+    {
+      "name": "spring.jdbc.datasource",
+      "type": "com.atguigu.bean.DataSourceProperties3",
+      "sourceType": "com.atguigu.config.JdbcConfig",
+      "sourceMethod": "createDataSourceProperties3()"
+    }
+  ],
+  "properties": [
+    {
+      "name": "spring.jdbc.data-source",
+      "type": "com.atguigu.bean.DataSourceProperties3",
+      "sourceType": "com.atguigu.bean.JdbcProperties"
+    },
+    {
+      "name": "spring.jdbc.datasource.driver-class-name",
+      "type": "java.lang.String",
+      "sourceType": "com.atguigu.bean.DataSourceProperties3"
+    },
+    {
+      "name": "spring.jdbc.datasource.password",
+      "type": "java.lang.String",
+      "sourceType": "com.atguigu.bean.DataSourceProperties3"
+    },
+    {
+      "name": "spring.jdbc.datasource.url",
+      "type": "java.lang.String",
+      "sourceType": "com.atguigu.bean.DataSourceProperties3"
+    },
+    {
+      "name": "spring.jdbc.datasource.username",
+      "type": "java.lang.String",
+      "sourceType": "com.atguigu.bean.DataSourceProperties3"
+    },
+    {
+      "name": "spring.jdbc.type",
+      "type": "java.lang.String",
+      "sourceType": "com.atguigu.bean.JdbcProperties"
+    }
+  ],
+  "hints": []
+}
